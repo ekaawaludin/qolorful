@@ -259,7 +259,7 @@ function displayToc2() {
             document.write("<li>");
             document.write('<a href="' + postUrl[a] + '">' + postTitle[a] + "</a>");
             if (postBaru[a] == true) {
-                document.write(' - <strong><em><span style="color: #333;">Baru !!</span> </em></strong>')
+                document.write(' - <strong><span style="color: #757575;">Baru!</span></strong>')
             }
             document.write("</li>");
             a = a + 1
