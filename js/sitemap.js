@@ -253,7 +253,7 @@ function displayToc2() {
     while (b < postTitle.length) {
         temp1 = postLabels[b];
         document.write("<p/>");
-        document.write('<p><a href="/search/label/' + temp1 + '"><strong>' + temp1 + "</strong></a></p><ol>");
+        document.write('<p><a href="/search/label/' + temp1 + '"><strong>' + temp1 + "</strong></a></p><ul>");
         firsti = a;
         do {
             document.write("<li>");
@@ -265,7 +265,7 @@ function displayToc2() {
             a = a + 1
         } while (postLabels[a] == temp1);
         b = a;
-        document.write("</ol>");
+        document.write("</ul>");
         sortPosts2(firsti, a);
         if (b > postTitle.length) {
             break
