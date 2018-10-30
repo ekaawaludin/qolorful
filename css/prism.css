@@ -37,7 +37,12 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #464954;
+	background-color: #464954;
+	background: rgb(76,45,107);
+	background: -moz-linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
+	background: -webkit-linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
+	background: linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c2d6b",endColorstr="#a27e7c",GradientType=1); 
 }
 
 /* Inline code */
