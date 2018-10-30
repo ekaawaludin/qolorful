@@ -38,11 +38,11 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background-color: #464954;
-	background: rgb(76,45,107);
-	background: -moz-linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
-	background: -webkit-linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
-	background: linear-gradient(120deg, rgba(76,45,107,1) 0%, rgba(88,69,112,1) 50%, rgba(162,126,124,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c2d6b",endColorstr="#a27e7c",GradientType=1); 
+	background: rgb(70,73,84);
+	background: -moz-linear-gradient(120deg, rgba(70,73,84,1) 0%, rgba(69,92,112,1) 50%, rgba(162,126,124,1) 100%);
+	background: -webkit-linear-gradient(120deg, rgba(70,73,84,1) 0%, rgba(69,92,112,1) 50%, rgba(162,126,124,1) 100%);
+	background: linear-gradient(120deg, rgba(70,73,84,1) 0%, rgba(69,92,112,1) 50%, rgba(162,126,124,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#464954",endColorstr="#a27e7c",GradientType=1); 
 }
 
 /* Inline code */
